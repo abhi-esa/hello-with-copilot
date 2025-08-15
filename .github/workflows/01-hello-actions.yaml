@@ -1,0 +1,14 @@
+name: 01-hello-actions
+on: 
+  workflow_dispatch:
+
+env:
+  AUTHOR_NAME: abhishek pandey
+
+jobs:
+  HELLO-WORLD:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hello world
+      run: |
+        echo $AUTHOR_NAME
