@@ -1,14 +1,14 @@
 // This file contains the main application class for the Spring Boot application.
 
-package com.example.hellowithcopilot;
+package com.abhiesa.hellowithcopilot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloWithCopilotApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(HelloWithCopilotApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
